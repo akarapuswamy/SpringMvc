@@ -28,7 +28,6 @@ public class Control {
 	}
 	@GetMapping("/add")
 	public String login() {
-		
 		return "RegFile";
 		
 	}
