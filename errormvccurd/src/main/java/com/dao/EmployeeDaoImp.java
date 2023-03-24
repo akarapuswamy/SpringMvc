@@ -24,7 +24,7 @@ public class EmployeeDaoImp implements EmployeeDao {
 	}
 
 	public int update(Employee e) {
-		int update = jdbcTemplate.update(Queries.update, new Object[] {e.getName(),e.getDese(),e.getSalary(),e.getSalary()});
+		int update = jdbcTemplate.update(Queries.update, new Object[] {e.getName(),e.getDese(),e.getSalary(),e.getId()});
 		return update;
 	}
 

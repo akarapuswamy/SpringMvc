@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 @ControllerAdvice
 public class GlobalControler {
-	@ExceptionHandler(value = Exception.class)
-	public String Exception() {
-		return "exception";
-		
-	}
+//	@ExceptionHandler(value = Exception.class)
+//	public String Exception() {
+//		return "exception";
+//		
+//	}
 	
 	
 
